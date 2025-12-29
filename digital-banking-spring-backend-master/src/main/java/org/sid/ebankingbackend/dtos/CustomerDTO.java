@@ -6,8 +6,9 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.sid.ebankingbackend.entities.BankAccount;
 
-import javax.persistence.*;
-import java.util.List;
+import jakarta.persistence.Entity;
+import jakarta.persistence.*;
+
 
 @Data
 public class CustomerDTO {

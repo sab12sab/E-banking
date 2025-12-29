@@ -6,7 +6,9 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import org.sid.ebankingbackend.enums.OperationType;
 
-import javax.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.*;
+
 import java.util.Date;
 @Entity
 @Data @NoArgsConstructor @AllArgsConstructor
