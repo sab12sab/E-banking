@@ -5,7 +5,8 @@
 
 <h2>Base de données MySQL</h2>
 <p>La base de données MySQL a été conçue avec une structure relationnelle permettant de gérer les clients, leurs comptes bancaires et les opérations financières.</p>
-<img width="375" height="122" alt="image" src="https://github.com/user-attachments/assets/6c75ea4a-d3b5-417e-a248-1d365f853990" />
+<img width="622" height="243" alt="image" src="https://github.com/user-attachments/assets/a80c8291-ea17-47d9-9ff1-0638dcc3c9c4" />
+
 
 
 <h2>Gestion des comptes bancaires</h2>
@@ -59,6 +60,7 @@
 
 Auteur:
 ----
+
 
 
 
