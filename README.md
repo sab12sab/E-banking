@@ -28,7 +28,7 @@
 
 <h2>Gestion des clients</h2>
 <h3>Affichage de la liste des clients</h3>
-<img src="captures/allCustomers.jpg">
+<img width="658" height="448" alt="image" src="https://github.com/user-attachments/assets/0ea29ca2-b4b3-4998-9204-f732c2aae903" />
 <h3>Affichage de la liste des clients au niveau de Swagger</h3>
 <img width="1117" height="472" alt="image" src="https://github.com/user-attachments/assets/369e1170-9335-4f92-af1a-ec5972aa02a1" />
 <h3>Rechercher tous les clients</h3>
@@ -51,6 +51,7 @@
 
 Auteur:
 ----
+
 
 
 
