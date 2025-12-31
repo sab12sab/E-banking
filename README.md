@@ -5,25 +5,33 @@
 
 <h2>Base de données MySQL</h2>
 <p>La base de données MySQL a été conçue avec une structure relationnelle permettant de gérer les clients, leurs comptes bancaires et les opérations financières.</p>
-<img src="captures/database.png">
-<img src="captures/customersdb.png">
+<img width="375" height="122" alt="image" src="https://github.com/user-attachments/assets/6c75ea4a-d3b5-417e-a248-1d365f853990" />
+
 
 <h2>Gestion des comptes bancaires</h2>
 <p>La gestion des comptes bancaires permet d'afficher la liste complète de tous les comptes, de visualiser leurs détails (solde, type, statut), de créer de nouveaux comptes, et d'effectuer des opérations </p>
 <h3>Affichage de la liste de tous les comptes bancaires</h3>
-<img src="captures/accounts.jpg">
+<img width="289" height="338" alt="image" src="https://github.com/user-attachments/assets/25844077-771a-43f1-b889-f3d715d6269b" />
+
 <h3>Affichage d'un compte bancaire par son ID</h3>
-<img src="captures/accountId.jpg">
+<img width="314" height="152" alt="image" src="https://github.com/user-attachments/assets/72d25ed7-c5e0-4202-825a-cf24a7256c71" />
+
 <h3>Affichage de la page des opérations d'un compte bancaire d'après son ID</h3>
-<img src="captures/accountIdOperations.jpg">
+<img width="376" height="350" alt="image" src="https://github.com/user-attachments/assets/4f9603a5-ec10-4dc4-b670-1d50012cc05f" />
+
 <h3>Affichage de la liste de tous les comptes bancaires au niveau de Swagger</h3>
-<img src="captures/accountsSwagger.jpg">
+<img width="561" height="299" alt="image" src="https://github.com/user-attachments/assets/6f4e2021-4dda-49f2-ac30-715248cc0003" />
+
 <h3>Affichage d'un compte bancaire par son ID au niveau de Swagger</h3>
-<img src="captures/accountIdSwagger.jpg">
+<img width="562" height="208" alt="image" src="https://github.com/user-attachments/assets/5986a688-b986-4aa1-9c8c-b38e79790292" />
+
 <h3>Affichage des opérations d'un compte bancaire d'après son ID au niveau de Swagger</h3>
-<img src="captures/accountIdOperationsSwagger.jpg">
+<img width="563" height="344" alt="image" src="https://github.com/user-attachments/assets/79f7011e-bf0e-4a6d-9e47-eb2d41dbf7e0" />
+
 <h3>Affichage de la page des opérations d'un compte bancaire d'après son ID au niveau de Swagger</h3>
-<img src="captures/accountIdOperationsSwagger.jpg">
+<img width="566" height="349" alt="image" src="https://github.com/user-attachments/assets/16dda333-45b1-4241-86c8-4f2d673b5a89" />
+
+
 
 
 <h2>Gestion des clients</h2>
@@ -51,6 +59,7 @@
 
 Auteur:
 ----
+
 
 
 
