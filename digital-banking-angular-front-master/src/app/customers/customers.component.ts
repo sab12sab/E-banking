@@ -21,7 +21,15 @@ export class CustomersComponent implements OnInit {
     this.searchFormGroup=this.fb.group({
       keyword : this.fb.control("")
     });
-    this.handleSearchCustomers();
+    // SUPPRIMÉ: this.handleSearchCustomers();
+    // Initialiser directement pour éviter le double appel
+    let kw=this.searchFormGroup?.value.keyword;
+    this.customers=this.customerService.searchCustomers(kw).pipe(
+      catchError(err => {
+        this.errorMessage=err.message;
+        return throwError(err);
+      })
+    );
   }
   handleSearchCustomers() {
     let kw=this.searchFormGroup?.value.keyword;
