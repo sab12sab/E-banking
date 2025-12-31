@@ -34,8 +34,10 @@
 <h3>Rechercher tous les clients</h3>
 <img width="1117" height="472" alt="image" src="https://github.com/user-attachments/assets/369e1170-9335-4f92-af1a-ec5972aa02a1" />
 
-<h3>Rechercher un client par mot cle</h3>
 <img width="658" height="448" alt="image" src="https://github.com/user-attachments/assets/0ea29ca2-b4b3-4998-9204-f732c2aae903" />
+
+<h3>Rechercher un client par mot cle</h3>
+
 
 <h3>Affichage d'un client par son ID</h3>
 <img width="562" height="198" alt="image" src="https://github.com/user-attachments/assets/6a97a39e-4663-4859-80ed-2c996ee16f74" />
@@ -50,4 +52,5 @@
 
 Auteur:
 ----
+
 
