@@ -97,7 +97,8 @@ les étapes:
 ## Sécurisation de l'Application avec un Système d'Authentification basé sur Spring Security et JSON Web Token
 La sécurisation de l'application bancaire a été réalisée en mettant en place un système d'authentification basé sur Spring Security et l'utilisation de JSON Web Token (JWT). Cette approche renforce la sécurité de l'application en assurant un accès sécurisé aux fonctionnalités tout en prévenant les accès non autorisés.
 1. Dépendance: ```spring-boot-starter-oauth2-resource-server```
-<img src="captures/pring_oauth2.PNG">
+<img width="993" height="173" alt="image" src="https://github.com/user-attachments/assets/393f634c-cbec-49aa-8bc3-3d4df62cdc9e" />
+
 La dépendance spring-boot-starter-oauth2-resource-server dans
 un projet Spring Boot sert à configurer l'application en tant que
 serveur de ressources OAuth 2.0. Elle permet à l'application de valider
@@ -106,7 +107,8 @@ ressources sensibles. Cela est utile dans les architectures où l'authentificati
 et l'autorisation sont gérées par un serveur d'authentification externe, et l'application
 agit en tant que serveur de ressources sécurisé.
 2. Login
-   <img src="captures/login_apres.PNG">
+   <img width="995" height="343" alt="image" src="https://github.com/user-attachments/assets/94358cdb-a477-4ad3-8adb-d3591126b799" />
+
 
 
 4. JWT
@@ -126,7 +128,8 @@ Dans cette approche, un token est généré lors de l'authentification et deux b
 Avec JWT, au lieu d'envoyer le nom d'utilisateur et le mot de passe à chaque requête, on envoie le token généré sous la forme d'un "Bearer".
 
 L'utilisation du terme "Bearer" dans ce contexte signifie que le porteur (bearer) du token est authentifié. Lorsqu'on envoie une requête avec un token JWT, on inclut généralement l'en-tête Authorization avec la valeur "Bearer" suivie du token. Cela permet au serveur de comprendre que le token est utilisé pour l'authentification.
-<img src="captures/jwt_generation.PNG">
+<img width="997" height="449" alt="image" src="https://github.com/user-attachments/assets/85ba89a5-b7f8-4485-8778-bc02b2c07976" />
+
 
 
 
@@ -241,6 +244,7 @@ Le projet vise à développer une application web utilisant Angular comme framew
      ![Gestion des Produits](https://github.com/user-attachments/assets/a53fc08b-e0bb-4531-a148-ce189ec71d72)
 
      
+
 
 
 
