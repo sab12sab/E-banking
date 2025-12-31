@@ -9,7 +9,8 @@ deux types de comptes : les comptes courants et les comptes épargnes.
 
 
 ## Architecture de l'application
-<img src="captures/architectureebanking.PNG">
+<img width="1085" height="606" alt="image" src="https://github.com/user-attachments/assets/752f2050-dc09-4fb4-90ac-82a2149e18ff" />
+
 
 ## Couche DAO
 Dans cette section, nous avons créé un projet Spring Boot et
@@ -20,46 +21,52 @@ avec la base de données.Des tests ont été effectués pour valider le bon fonc
 
 # Entités JPA 
 **H2 DATABASE**<br>
-     *SINGLE TABLE
-<p>générer single table</p>
-<img src="captures/db_st_entity.PNG">
-<p>la valeur du type Saving Account</p>
-<img src="captures/db_st_entity_sa.PNG">
-<p>la valeur du type Current Account</p>
-<img src="captures/db_stçentity_ca.PNG">
+
+
 <p>table Bank Account</p>
 
-<img src="captures/single_table_bankAccount.PNG">
+<img width="1245" height="437" alt="image" src="https://github.com/user-attachments/assets/97af5afd-dea7-4cab-9902-33ae1770defb" />
+
 <p>table Customer</p>
 
-<img src="captures/single_table_customer.PNG">
+<img width="902" height="679" alt="image" src="https://github.com/user-attachments/assets/fbf7ca82-a04e-4800-9149-3164bc29b4a3" />
+
 <p>table Account Operation</p>
 
-<img src="captures/single_table_Account_operation.PNG">
+<img width="905" height="621" alt="image" src="https://github.com/user-attachments/assets/23b5b4bc-ac97-4694-8060-c5c53d2479e5" />
+
      *PER TABLE
 
 <p> Les autres tables restent les mêmes, sauf bankAccount qui ne sera pas présente, et à la place, nous aurons deux tables : CurrentAccount et SavingAccount.</p>
 <p>générer per table Bank Account </p>
-<img src="captures/per_table_entity.PNG">
+<img width="1363" height="457" alt="image" src="https://github.com/user-attachments/assets/0d98e6e5-a394-4b39-90a3-0f09709c6282" />
+
 <p>table Current Account</p>
-<img src="captures/per_table_current_account.PNG">
+<img width="1356" height="494" alt="image" src="https://github.com/user-attachments/assets/de91de55-9c4b-4f1f-9f74-487ebae35feb" />
+
 <p>table Saving Account</p>
-<img src="captures/per_table_saving_account.PNG">
+<img width="907" height="677" alt="image" src="https://github.com/user-attachments/assets/2feef9ec-3bfb-44b5-8af8-4b75ba9483c9" />
+
 
    *Joined
 <p> Les autres tables restent les mêmes, sauf bankAccount, CurrentAccount, SavingAccount qui seront modifiées.</p>
 <p>générer joined table</p>
-<img src="captures/joined_table_entity.PNG">
+<img width="1132" height="530" alt="image" src="https://github.com/user-attachments/assets/99a62912-0b47-45df-b637-376b52013bca" />
+
 <p>table Saving Account</p>
-<img src="captures/joined_saving_account.PNG">
+<img width="1131" height="586" alt="image" src="https://github.com/user-attachments/assets/e5ef16ca-ec06-420f-a31c-c9cfd39c8432" />
+
 <p>table Current Account</p>
-<img src="captures/joined_current_account.PNG">
+<img width="1135" height="483" alt="image" src="https://github.com/user-attachments/assets/b564ac63-b0f7-4522-8c89-0cf6deb91a55" />
+
 <p>table Bank Account</p>
-<img src="captures/joined_bank_account.PNG">
+<img width="976" height="570" alt="image" src="https://github.com/user-attachments/assets/d4be89e1-fafe-4c11-817c-a91abd95ceed" />
+
 
 **SQL**
 
-<img src="captures/ebank_db_SQL.PNG">
+<img width="995" height="460" alt="image" src="https://github.com/user-attachments/assets/3f3b877f-3935-4de3-ae1a-f77ddd8feced" />
+
 <li>Interfaces JPA Repository :</li>
 
 
@@ -70,9 +77,11 @@ Swagger a été intégré pour la documentation automatique des API REST. Cet ou
 1. Consulter les Endpoints
 
     1.1 .Clients
-   <img src="captures/swagger-first.PNG">
+   <img width="1847" height="968" alt="image" src="https://github.com/user-attachments/assets/ce31f541-9f3b-4cfd-9f67-4b4c2d163e99" />
+
     1.2  .Banque et Sécurité
-   <img src="captures/swagger1.PNG">
+  <img width="1632" height="939" alt="image" src="https://github.com/user-attachments/assets/4422f369-d120-48a8-b163-ef0b6e8edcba" />
+
 
 
 # Postman
@@ -121,51 +130,7 @@ L'utilisation du terme "Bearer" dans ce contexte signifie que le porteur (bearer
 
 
 
-## Conclusion 
-En conclusion, le projet JEE Backend, construit sur les technologies Spring, Angular, Spring Security, et JWT, a été développé dans le but de fournir une solution complète pour la gestion bancaire. La première partie de l'architecture de l'application a été détaillée, mettant en avant la mise en place de la couche DAO avec des entités JPA telles que Customer, BankAccount, Saving Account, CurrentAccount, et AccountOperation.
 
-Les tests et la documentation ont mis en avant l'intégration réussie de Swagger pour la documentation interactive des API REST. Les tests effectués avec Postman, ainsi que l'utilisation de l'OpenAPI definition, démontrent une approche solide pour la validation des fonctionnalités de l'application.
-
-La sécurisation de l'application, une composante cruciale, a été implémentée avec succès en intégrant Spring Security et en adoptant JSON Web Token (JWT). Les dépendances nécessaires, le processus d'authentification avec JWT, et les différentes étapes telles que la génération du JWT ont été expliqués en détail.
-
-En plus de la partie backend, la modélisation des entités, la mise en place des repositories, l'utilisation d'énumérations et de DTOs, la gestion des exceptions, les mappers, les services, et la partie web avec les contrôleurs ont été élaborés pour garantir une application bien structurée et facile à maintenir.
-
-Ce projet offre une solution holistique pour la gestion bancaire en mettant l'accent sur la sécurité, la documentation, et la qualité du code. L'intégration réussie de différentes technologies témoigne d'une approche moderne et efficace pour le développement d'applications robustes et sécurisées.
-
-
-
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- <h1>Projet JEE - Digital banking - Backend</h1>
-<p>Système de gestion bancaire permettant aux clients de détenir plusieurs comptes (courants ou épargne) et d'effectuer des opérations de dépôt et retrait.</p>
-
-----
 
 <h2>Base de données MySQL</h2>
 <p>La base de données MySQL a été conçue avec une structure relationnelle permettant de gérer les clients, leurs comptes bancaires et les opérations financières.</p>
@@ -198,7 +163,6 @@ Ce projet offre une solution holistique pour la gestion bancaire en mettant l'ac
 
 
 
-
 <h2>Gestion des clients</h2>
 <h3>Affichage de la liste des clients</h3>
 <img width="658" height="448" alt="image" src="https://github.com/user-attachments/assets/0ea29ca2-b4b3-4998-9204-f732c2aae903" />
@@ -217,10 +181,19 @@ Ce projet offre une solution holistique pour la gestion bancaire en mettant l'ac
 <h3>Affichage d'un client par son ID au niveau de Swagger</h3>
 <img width="1130" height="444" alt="image" src="https://github.com/user-attachments/assets/62532431-74c3-44ae-9235-c7b205e481e4" />
 
+## Conclusion 
+En conclusion, le projet JEE Backend, construit sur les technologies Spring, Angular, Spring Security, et JWT, a été développé dans le but de fournir une solution complète pour la gestion bancaire. La première partie de l'architecture de l'application a été détaillée, mettant en avant la mise en place de la couche DAO avec des entités JPA telles que Customer, BankAccount, Saving Account, CurrentAccount, et AccountOperation.
+
+Les tests et la documentation ont mis en avant l'intégration réussie de Swagger pour la documentation interactive des API REST. Les tests effectués avec Postman, ainsi que l'utilisation de l'OpenAPI definition, démontrent une approche solide pour la validation des fonctionnalités de l'application.
+
+La sécurisation de l'application, une composante cruciale, a été implémentée avec succès en intégrant Spring Security et en adoptant JSON Web Token (JWT). Les dépendances nécessaires, le processus d'authentification avec JWT, et les différentes étapes telles que la génération du JWT ont été expliqués en détail.
+
+En plus de la partie backend, la modélisation des entités, la mise en place des repositories, l'utilisation d'énumérations et de DTOs, la gestion des exceptions, les mappers, les services, et la partie web avec les contrôleurs ont été élaborés pour garantir une application bien structurée et facile à maintenir.
+
+Ce projet offre une solution holistique pour la gestion bancaire en mettant l'accent sur la sécurité, la documentation, et la qualité du code. L'intégration réussie de différentes technologies témoigne d'une approche moderne et efficace pour le développement d'applications robustes et sécurisées.
 
 
-
-# FrentendBanking
+# FrontendBanking
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.7.
 
@@ -268,6 +241,7 @@ Le projet vise à développer une application web utilisant Angular comme framew
      ![Gestion des Produits](https://github.com/user-attachments/assets/a53fc08b-e0bb-4531-a148-ce189ec71d72)
 
      
+
 
 
 
